@@ -35,7 +35,6 @@ function App() {
         text: newTodoRef.current.value,
       });
       newTodoRef.current.value = "";
-      console.log(newTodoRef.current.value.charAt);
     }
 
   }, []);
